@@ -3,7 +3,7 @@ import os
 
 print("Please ensure that your .txt  file is in the same path directory.")
 
-filename = input('Enter file name: ')
+filename = raw_input('Enter file name: ')
 
 checklast = list(filename)
 

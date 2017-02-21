@@ -3,7 +3,7 @@ import os
 
 print("Please ensure that your .txt  file is in the same path directory.")
 
-filename = input('Enter file name: ')
+filename = raw_input('Enter file name: ')
 
 checklast = list(filename)
 
@@ -13,9 +13,9 @@ if (checklast[len(checklast)-1]=="8"):
 	
 newfilename = filename[:-1]
 newfilename += str("8.txt")
-filename += str(".txt")
+#filename += str(".txt")
 
-print ("Encoding " + filename + ". Please wait")
+print ("Encoding " + filename + " . Please wait")
 
 file = open(filename,"r+")
 text = list(file.read())
