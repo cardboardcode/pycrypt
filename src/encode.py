@@ -13,7 +13,7 @@ if (checklast[len(checklast)-1]=="8"):
 	
 newfilename = filename[:-1]
 newfilename += str("8.txt")
-#filename += str(".txt")
+filename += str(".txt")
 
 print ("Encoding " + filename + " . Please wait")
 

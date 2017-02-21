@@ -1,3 +1,7 @@
 @echo off 
 
-python src/encode.py 
+cd src
+
+python encode.py 
+
+cd ..
