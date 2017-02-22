@@ -1,5 +1,6 @@
 import sys
 import os
+import time
 
 print("Please ensure that your .txt  file is in the same path directory.")
 
@@ -16,6 +17,11 @@ newfilename += str("0.txt")
 filename += str(".txt")
 
 print ("Decoding " + filename + ". Please wait")
+
+
+#Time Recording Start
+millis1 = int(round(time.time() * 1000))
+
 
 file = open(filename,"r+")
 text = list(file.read())
@@ -79,6 +85,15 @@ for letter in text:
 		st+=str(' ')
 
 file.write(st)
+
+#Time Recording Start
+millis2 = int (round(time.time() * 1000))
+
+#Printing the performance gauge timing 
+print ("\n")
+print ("Time taken for decoding process:") ,((millis2 - millis1) * 1000) ,("microseconds.")
+print ("\n")
+
 
 file.close()
 print("\n")
