@@ -8,3 +8,6 @@ OOP Principles:
 2. Polymorphism
 3. Encapsulation
 4. Abstraction
+
+Coding Practices:
+http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
