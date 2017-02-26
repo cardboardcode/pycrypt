@@ -6,6 +6,11 @@ from parserlib import *
 
 debugger = Timer();
 
+try:
+	input = raw_input
+except NameError:
+	pass
+
 #UI
 #print("Please ensure that your .txt  file is in the same path directory.")
 #filename = raw_input('Enter file name: ')
