@@ -9,7 +9,7 @@ debugger = Timer();
 #UI
 #print("Please ensure that your .txt  file is in the same path directory.")
 #filename = raw_input('Enter file name: ')
-filename = raw_input('')
+filename = input('')
 
 checklast = list(filename)
 
