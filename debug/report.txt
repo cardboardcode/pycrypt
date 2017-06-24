@@ -1,2 +1,2 @@
-Average time taken for encoding: 22200 microseconds
-Average time taken for decoding: 19000 microseconds
+Average time taken for encoding: 0.0 microseconds
+Average time taken for decoding: 0.0 microseconds

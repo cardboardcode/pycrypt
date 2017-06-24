@@ -1,6 +1,6 @@
 @echo off 
 
-cd src
+cd bench
 python decode.py 
 
 cd ..

@@ -1,5 +1,4 @@
 @echo off 
-cd src
+cd bench
 python encode.py 
-
 cd ..
